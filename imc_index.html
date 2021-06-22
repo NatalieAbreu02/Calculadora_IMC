@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+            <meta charset="UTF-8">
+            <title>Calculando o IMC</title>
+            <link rel="stylesheet" href="stylees.CSS">
+            <link rel="icon" href="logoos.png">
+            
+            
+    </head>
+    <body>
+
+        <form action="index.php" method="post">
+
+            <h1>Calculando o IMC</h1>
+
+            <label for="nome"> Digite seu nome: </label>
+            <input type="text" name = "nome" id="nome" required>
+
+            <label for="peso">Digite seu peso: </label>
+            <input type="text" name="peso" id="peso" step="any" required>
+
+            <label for="altura">Digite sua altura: </label>
+            <input type="text" name="altura" id="altura" step="any" required>
+            <br><br>
+
+            <img src="imc.jpg" alt="imc">
+            <br><br>
+            <div>
+                <button type="Submit" name="Calcular">Calcular</button>
+                <br><br>
+                <button type="reset" name="Limpar">Limpar</button>
+            </div>
+
+        </form>
+    </body>
+</html>
